@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: white;
+  font-family: "Bangers", cursive;
+  font-family: "Crimson Pro", serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 8vh;
+  align-items: center;
+  justify-items: center;
+}
+
+.logo {
+  display: flex;
+  margin: 2vh;
+  /* background-color: aqua; */
+  width: 30vh;
+  height: 5.3vh;
+  place-items: center;
+  justify-content: center;
+}
+
+.logo h1 {
+  font-family: "Lucida Sans";
+  font-weight: bold;
+}
+
+.navigasi {
+  /* background-color: white; */
+  width: 50vh;
+  height: 4.5vh;
+  margin-right: 2vh;
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+}
+
+.navigasi ul {
+  list-style: none;
+}
+
+.navigasi li {
+  padding: 5px;
+  margin: 5px;
+}
+
+.navigasi a {
+  text-decoration: none;
+  color: black;
+  margin: 2vh;
+}
+
+header {
+  display: flex;
+  place-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  background-image: url(aset/bgheder.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: opacity(1);
+  /* filter: grayscale(); */
+  margin: 0.4vh;
+}
+
+.tagline {
+  /* background-color: rgba(0, 0, 0, 0.314); */
+  height: 40vh;
+  width: 70vh;
+  margin-left: 0.9vh;
+  display: flex;
+  place-items: center;
+  text-align: start;
+}
+
+.tagline h1 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.tagline2 {
+  /* background-color: rgba(0, 0, 0, 0.314); */
+  height: 50vh;
+  width: 45vh;
+  margin-right: 0.9vh;
+  display: block;
+  place-items: center;
+  color: black;
+  text-align: center;
+}
+
+.tagline2 p {
+  margin: 2.5vh;
+}
+
+.tagline2 a {
+  position: relative;
+  top: 20px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: white;
+}
+
+#about {
+  /* background-color: salmon; */
+  text-align: center;
+  margin: 10vh auto;
+}
+
+.about {
+  display: flex;
+  /* background-color: rgba(0, 255, 255, 0.084); */
+  margin: 3vh auto;
+  height: 40vh;
+  width: 100vh;
+}
+
+.keterangan {
+  margin: 3vh auto;
+  background-color: rgba(240, 248, 255, 0.204);
+  width: 45vh;
+  text-align: center;
+}
+
+.keterangan h2 {
+  margin: 3vh auto;
+}
+
+#product {
+  /* background-color: rgba(250, 235, 215, 0.446); */
+  margin: 10vh auto;
+  text-align: center;
+}
+
+.product {
+  display: flex;
+  /* background-color: aquamarine; */
+  height: 40vh;
+  justify-content: space-evenly;
+  place-items: center;
+  text-align: center;
+}
+
+.gambarproduct {
+  margin: 5px;
+}
+
+.gambarproduct img {
+  width: 27vh;
+}
+
+#contact {
+  margin: 10vh auto;
+  text-align: center;
+}
+
+.contact {
+  height: 20vh;
+  background-color: rgba(197, 192, 185, 0.403);
+  display: flex;
+  justify-content: space-evenly;
+  place-items: center;
+}
+
+.icontac {
+  width: 15vh;
+  height: 10vh;
+  background-color: #190d04;
+}
+
+footer {
+  height: 30vh;
+  background-color: #190d04;
+  margin-top: 10vh;
+}
